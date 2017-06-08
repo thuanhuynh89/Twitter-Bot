@@ -51,3 +51,6 @@ node_modules
 
 # Ignoring npm-debug.log
 npm-debug.log
+
+# Ignoring processing
+processing-3.3.4
