@@ -8,12 +8,12 @@ console.log(config);
 var T = new Twit(config);           
 
 var tweet = {
-    status: '#haveagoodday from node.js'
+    status: '#haveagoodday from node.js'    
 }
 
-T.post('statuses/update', tweet, tweeted);
+T.post('statuses/update', tweet, tweeted);   //post tweet   
 
-function tweeted(err, data, response) {
+function tweeted(err, data, response) {     //callback if the post went through or not 
     if (err) {
         console.log("Something went wrong!");
     } else {

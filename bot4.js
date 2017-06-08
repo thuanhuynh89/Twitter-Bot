@@ -22,7 +22,7 @@ function tweetIt() {
 
         T.post('media/upload', { media_data: b64 }, uploaded);     //3 post filename and upload file
 
-        function uploaded(err, data, response) {                
+        function uploaded(err, data, response) {                //4 uploaded picture posted on my twitter account
             var id = data.media_id_string;
             var tweet = {
                 status: '#dots from node.js',

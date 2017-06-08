@@ -6,11 +6,11 @@ var config = require('./config');   //authentication
 var T = new Twit(config);
 
 
-var stream = T.stream('user');
+var stream = T.stream('user');     
 
 stream.on('follow', followed);
 
-function followed(eventMsg) {
+function followed(eventMsg) {       //once followed, follower will receive reply from my twitter
     console.log("Follow event!");
     var name = eventMsg.source.name;
     var screenName = eventMsg.source.screen_name;
@@ -21,7 +21,7 @@ function followed(eventMsg) {
 
 //setInterval(tweetIt, 1000*20)
 
-function tweetIt(txt) {
+function tweetIt(txt) {         //tweets back to the follwer
 
     //var r = Math.floor(Math.random()*100);
 
