@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -54,3 +55,17 @@ npm-debug.log
 
 # Ignoring processing
 processing-3.3.4
+=======
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+>>>>>>> 41f4798266873898f04d7c33488a604619eabbe6
