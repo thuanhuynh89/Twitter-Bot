@@ -1,45 +1,26 @@
 {
-<<<<<<< HEAD
-  "name": "npm_demo",
+  "name": "twitter-bot",
   "version": "1.0.0",
-  "description": "npm install",
-  "main": "bot.js",
+  "description": "auto tweet bot",
+  "main": "bot3s.js",
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuanhuynh89/Twitter-Bot.git"
+  },
   "keywords": [
-    "rainbow",
-    "awkward"
+    "autotweetbot"
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "twit": "^2.2.5"
-  }
-=======
-  "name": "node-js-getting-started",
-  "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "6.10.2"
+  "bugs": {
+    "url": "https://github.com/thuanhuynh89/Twitter-Bot/issues"
   },
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "ejs": "2.5.6",
-    "express": "4.15.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
->>>>>>> 41f4798266873898f04d7c33488a604619eabbe6
+  "homepage": "https://github.com/thuanhuynh89/Twitter-Bot#readme"
 }
