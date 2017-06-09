@@ -1,0 +1,11 @@
+heroku login
+
+cd to repo
+git init if you haven't already
+heroku git remote -a Twitter-Bot
+
+git add . 
+git commit -am "description"
+git push heroku master
+
+
