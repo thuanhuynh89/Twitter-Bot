@@ -1,8 +1,11 @@
 heroku login
 
+#create heroku app
+heroku create name_of_heroku_app
+
 cd to repo
 git init if you haven't already
-heroku git remote -a Twitter-Bot
+heroku git:remote -a name_of_heroku_app
 
 git add . 
 git commit -am "description"
