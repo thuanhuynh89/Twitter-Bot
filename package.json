@@ -2,7 +2,7 @@
   "name": "twitter-bot",
   "version": "1.0.0",
   "description": "auto tweet bot",
-  "main": "bot3s.js",
+  "main": "bot3a.js",
   "dependencies": {
     "twit": "^2.2.5"
   },
