@@ -13,6 +13,10 @@ bot4.js = uploads a picture and tweet to my twitter
 
 bot5.js = if you receive a tweet from someone, your bot will auto reply tweet 
 
+config.js = type in in twitter access keys; you need to provide phone number to twitter get these keys
+
+package.json = make sure to have when running node
+
 **to run these you need to download node.js, make sure to install node_module, change file directories in the code, and have your own twitter configuration keys**
 
 # node-js-getting-started
