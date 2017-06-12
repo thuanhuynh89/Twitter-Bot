@@ -1,16 +1,20 @@
-<<<<<<< HEAD
+
 # Twitter-Bot
 
 bot.js = searches for tweets
 
 bot2.js = post a tweet
 
-bot3.js = if I receive a follower, bot will reply back to the follower with a auto reply
+bot3a.js = post tweets every 20 seconds
+
+bot3b.js = if you receive a follower, bot will reply back to your follower with a auto reply
 
 bot4.js = uploads a picture and tweet to my twitter
 
+bot5.js = if you receive a tweet from someone, your bot will auto reply tweet 
+
 to run these you need to download node.js, make sure to install node_module, change file directories in the code, and have your own twitter configuration keys
-=======
+
 # node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
