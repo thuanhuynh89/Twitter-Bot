@@ -12,7 +12,7 @@ var fs = require('fs'); //enables user to read file sync
 tweetIt();
 
 function tweetIt() {
-    var cmd = "C:\\Users\\Thuan\\Documents\\processing-3.3.4\\processing-java --sketch=C:\\Users\\Thuan\\Documents\\processing-3.3.4\\dots --run";  //1 execute command
+    var cmd = "C:\\Users\\UserName\\Documents\\processing-3.3.4\\processing-java --sketch=C:\\Users\\UserName\\Documents\\processing-3.3.4\\dots --run";  //1 execute command
     exec(cmd, processing);
 
     function processing() {                                     //2 generates filename
