@@ -13,7 +13,7 @@ bot4.js = uploads a picture and tweet to my twitter
 
 bot5.js = if you receive a tweet from someone, your bot will auto reply tweet 
 
-to run these you need to download node.js, make sure to install node_module, change file directories in the code, and have your own twitter configuration keys
+**to run these you need to download node.js, make sure to install node_module, change file directories in the code, and have your own twitter configuration keys**
 
 # node-js-getting-started
 
@@ -54,4 +54,4 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
 - [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
->>>>>>> 41f4798266873898f04d7c33488a604619eabbe6
+
