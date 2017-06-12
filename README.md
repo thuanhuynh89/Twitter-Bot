@@ -37,9 +37,18 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+heroku login
+
+#create heroku app
+heroku create name_of_heroku_app
+
+cd to repo
+git init if you haven't already
+heroku git:remote -a name_of_heroku_app
+
+git add . 
+git commit -am "description"
+git push heroku master
 ```
 or
 
